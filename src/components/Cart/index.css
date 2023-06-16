@@ -1,0 +1,144 @@
+.cart-responsive {
+  width: 100%;
+  min-height: 100vh;
+}
+.no-items-cont {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-items-image {
+  width: 60%;
+}
+.no-items-header {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #1e293b;
+}
+.no-items-para {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+}
+.order-now {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  background-color: #f7931e;
+  border: transparent;
+  margin-top: 8px;
+}
+.cart-items-responsive {
+  width: 90%;
+}
+.cart-items-ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #f9fbfe;
+}
+.cart-item-headers {
+  display: none;
+}
+.cart-logo-flex {
+  display: none;
+}
+hr {
+  width: 100%;
+  border: 1px dashed #cbd2d9;
+}
+.cart-responsive {
+  width: 100%;
+}
+.cart-summary-responsive {
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .no-items-cont {
+    min-height: 80vh;
+  }
+  .no-items-image {
+    width: 22%;
+  }
+  .no-items-header {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .no-items-para {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .order-now {
+    font-size: 14px;
+    padding: 10px;
+    width: 120%;
+  }
+  .cart-items-ul {
+    justify-content: center;
+    align-items: center;
+  }
+  .cart-item-headers {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .cart-item-headers-txt {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #475569;
+  }
+  .my-cart-cont {
+    font-family: 'Open sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+
+    border: transparent;
+    background-color: #0275d8;
+  }
+  .cart-logo {
+    width: 22%;
+  }
+  .cart-logo-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  hr {
+    width: 80%;
+  }
+  .cart-summary-responsive {
+    width: 80%;
+  }
+}

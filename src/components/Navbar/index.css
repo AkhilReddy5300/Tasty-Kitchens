@@ -1,0 +1,135 @@
+.nav {
+  background-color: #f8fafc;
+  width: 100%;
+  padding: 4px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+.home-logo {
+  width: 80%;
+}
+.home-logo-header {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 12px;
+  color: #f7931e;
+}
+.home-li-1 {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.home-li-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.toggle-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: transparent;
+}
+.links-sm {
+  display: flex;
+  width: 80%;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links-lg {
+  display: none;
+}
+
+.home-txt {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+
+  letter-spacing: -0.355556px;
+
+  color: #f7931e;
+}
+.cart-txt {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+
+  letter-spacing: -0.355556px;
+
+  color: #334155;
+}
+.btn-txt {
+  width: 120%;
+  border: transparent;
+  cursor: pointer;
+  outline: none;
+  background: #f7931e;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+
+  text-align: center;
+  padding: 6px;
+
+  color: #ffffff;
+}
+.link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .links-lg {
+    display: block;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .toggle-btn {
+    display: none;
+  }
+  .home-logo {
+    width: 100%;
+  }
+  .home-logo-header {
+    font-size: 24px;
+  }
+  .btn-txt {
+    width: 20%;
+    padding: 8px;
+    font-size: 14px;
+  }
+  .home-txt {
+    font-size: 20px;
+  }
+  .cart-txt {
+    font-size: 20px;
+  }
+}
